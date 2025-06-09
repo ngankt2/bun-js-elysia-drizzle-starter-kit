@@ -1,0 +1,12 @@
+### GET request to example server
+POST {{api_domain}}/blog/list
+Authorization: "Token"
+Content-Type: application/json
+
+{
+  "requestId": "test-123",
+  "requestTime": "1213545154135",
+  "page": 1
+}
+
+###
