@@ -1,6 +1,0 @@
-{
-  "status": "error",
-  "requestId": "test-123",
-  "message": "Failed to fetch blog list",
-  "error": "Your \"category->id\" field references a column \"categories\".\"id\", but the table \"categories\" is not part of the query! Did you forget to join it?"
-}

@@ -1,6 +1,0 @@
-{
-  "status": "error",
-  "requestId": "test-123",
-  "message": "Failed to fetch blog list",
-  "error": "Failed query: select \"id\", \"title\", \"content\", \"category_id\", \"user_id\", \"created_at\" from \"blogs\" limit $1\nparams: 10"
-}
