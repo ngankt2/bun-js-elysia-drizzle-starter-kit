@@ -1,0 +1,35 @@
+{
+  "type": "validation",
+  "on": "headers",
+  "summary": "Property 'authorization' is missing",
+  "property": "/authorization",
+  "message": "Expected required property",
+  "expected": {
+    "authorization": ""
+  },
+  "found": {},
+  "errors": [
+    {
+      "type": 45,
+      "schema": {
+        "description": "Authentication token obtained from the admin or user dashboard. Required for accessing the API.",
+        "type": "string"
+      },
+      "path": "/authorization",
+      "message": "Expected required property",
+      "errors": [],
+      "summary": "Property 'authorization' is missing"
+    },
+    {
+      "type": 54,
+      "schema": {
+        "description": "Authentication token obtained from the admin or user dashboard. Required for accessing the API.",
+        "type": "string"
+      },
+      "path": "/authorization",
+      "message": "Expected string",
+      "errors": [],
+      "summary": "Expected property 'authorization' to be string but found: undefined"
+    }
+  ]
+}

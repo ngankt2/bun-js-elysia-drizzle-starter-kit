@@ -1,0 +1,6 @@
+{
+  "status": "error",
+  "requestId": "test-123",
+  "message": "Failed to fetch blog list",
+  "error": "Failed query: select \"blogs\".\"id\", \"blogs\".\"title\", \"blogs\".\"content\", \"categories\".\"id\", \"categories\".\"name\", \"categories\".\"description\", \"users\".\"id\", \"users\".\"name\", \"users\".\"email\", \"blogs\".\"created_at\" from \"blogs\" inner join \"users\" on \"blogs\".\"user_id\" = \"users\".\"id\" inner join \"categories\" on \"blogs\".\"category_id\" = \"categories\".\"id\" limit $1\nparams: 10"
+}

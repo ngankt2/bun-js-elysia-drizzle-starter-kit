@@ -1,0 +1,5 @@
+{
+  "status": "error",
+  "requestId": "test-123",
+  "message": "Failed to fetch blog list"
+}
